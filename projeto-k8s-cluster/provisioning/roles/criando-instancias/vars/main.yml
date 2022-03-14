@@ -1,0 +1,10 @@
+---
+# vars file for criando-instancias
+instance_type: t2.micro
+security_group: ansible
+image: ami-0e472ba40eb589f49
+keypair: awsthaina
+region: us-east-1
+count: 3
+profile: default
+
